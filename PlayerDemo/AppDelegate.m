@@ -16,6 +16,7 @@
 
 @implementation AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //test
 //    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [[DataManager shareManager] getSIDArrayWithURLString:@"http://c.m.163.com/nc/video/home/0-10.html"
                                                  success:^(NSArray *sidArray, NSArray *videoArray) {
